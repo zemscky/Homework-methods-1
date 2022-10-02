@@ -78,7 +78,7 @@ public class Main {
         if (deliveryDistance <= 20) {
             return 1;
         } else {
-            return (int) Math.round (deliveryDistance / 40) + 1;
+            return (int) Math.round ((double) (deliveryDistance / 40)) + 1;
         }
     }
 }
